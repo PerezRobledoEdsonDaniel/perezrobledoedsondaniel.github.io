@@ -1,0 +1,110 @@
+body{
+  background-image: url("imagenes/fondo.png");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+  background-color: white;  
+  }
+p{
+  text-align: justify;
+  font-family: 'Lora', serif;
+}
+.menu-superior{
+  text-align: center;
+  position: fixed;
+  width: 100%;
+  background-color: rgb(150, 104, 40);
+  height: 70px;
+  top: 0px;   
+}
+.menu-superior ul{
+  list-style-type: none;
+  margin-top: 10px, auto;
+}
+.menu-superior ul li {
+  display: inline-block;
+  margin: 4px;
+  padding: 1px;
+  
+}
+
+
+.menu-superior ul li a {
+  font-family: verdana;
+  font-size: 14px;
+  text-decoration: none;
+  color: white;
+}
+.menu-inferior{
+  text-align: center;
+  position: fixed;
+  width: 100%;
+  background-color: rgb(150, 104, 40);
+  height: 50px;
+  bottom: 0px;
+
+}
+.menu-inferior ul{
+  list-style-type: none;
+  margin-top: 16px;
+  margin-bottom: 10px;
+}
+.menu-inferior ul li {
+  display: inline-block;
+  padding-left:20px;
+  padding-right: 20px;  
+}
+.menu-inferior ul li a {
+  font-family: verdana;
+  font-size: 14px;
+  text-decoration: none;
+  color: white;
+}
+.contenedor{
+  background: none;
+  
+}
+#selected{
+  border-bottom: 0px solid wheat;
+  border-radius: 2%;
+}
+
+#selected a{
+  font-weight: bold;
+  color: wheat;
+}
+.cuerpo-principal{
+  margin-top: 80px;
+  margin-left: 150px;
+  margin-right: 150px;
+  margin-bottom: 60px;
+}
+
+.titulo{
+  width: 67%;
+  text-align: center;
+  float: right;
+}
+
+.img-inicio{
+  width: 270px;
+  height: 320px;
+  text-align: left;
+  float: left;
+}
+.introduccion{
+  text-align: justify;
+  width: 67%;
+  float: right;
+  margin-left: 10px;
+  margin-right: 10px;
+}
+#main-content{
+  margin: 10%;
+}
+.img-cuento{
+  text-align: center;
+  width: 100%;
+  height: 500px;
+}
