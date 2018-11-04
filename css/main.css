@@ -66,12 +66,12 @@ p{
   background: none;
   
 }
-#selected{
+.selected{
   border-bottom: 0px solid wheat;
   border-radius: 2%;
 }
 
-#selected a{
+.selected a{
   font-weight: bold;
   color: wheat;
 }
